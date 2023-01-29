@@ -29,7 +29,7 @@ You can decide how often to print updates.
     # run and neatly print the result
     schelling_model.run(steps=2000, print_at_end=True, print_every=100)
 ```
-# beside the grid state, you can also plot the share of agents that would not move if selected. 
+Beside the grid state, you can also plot the share of agents that would not move if selected. 
 ```
     # plot the segregation over time
     schelling_model.plot_segregation_curve()
