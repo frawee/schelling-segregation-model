@@ -15,7 +15,7 @@ For displayed colors, the Colors class was taken from https://www.geeksforgeeks.
 
 In your run configuration, check "Emulate terminal in output console"
 
-## Quickstart
+### Quickstart
 To run the model, initalize an instance and call the run function.
 Each call of run will update the last state, not re-initialize the grid.
 You can decide how often to print updates.
